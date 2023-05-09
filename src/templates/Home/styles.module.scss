@@ -1,0 +1,13 @@
+.sectionBox {
+  margin-top: 200px;
+  margin-bottom: 150px;
+  text-align: center;
+
+  a {
+    font-size: 6.4rem;
+    font-weight: bold;
+    @media screen and (max-width: 768px) {
+      font-size: 5.6rem;
+    }
+  }
+}
